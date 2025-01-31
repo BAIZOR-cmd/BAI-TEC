@@ -42,6 +42,19 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img {
+    height: 45px;
+    width: 45px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.logo span {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
